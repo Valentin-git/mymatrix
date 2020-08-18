@@ -1,0 +1,33 @@
+.clientQuote {
+  // height: 699px;
+  padding: 190px 0;
+  margin-bottom: 165px;
+  background: url(../img/client-quote/elizabeth.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.client {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  svg {
+    width: 35%;
+    height: 70px;
+    margin-bottom: 36px;
+    overflow: overlay;
+  }
+  &__blockquote {
+    width: 35%;
+    margin-bottom: 33px;
+    color: rgb(135, 143, 156);
+    font-size: 14px;
+  }
+  &__title {
+    color: $darkBlue;
+    font-size: 30px;
+  }
+  &__text {
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+  }
+}

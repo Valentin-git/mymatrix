@@ -1,0 +1,10 @@
+.pricing {
+  @include flex-between ();
+  margin-top: 95px;
+  margin-bottom: 150px;
+  &__item {
+    width: 340px;
+    height: 560px;
+    background: rgb(234, 234, 234);
+  }
+}

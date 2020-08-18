@@ -1,0 +1,68 @@
+@import 'var';
+
+@mixin flex () {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-between () {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+button {
+	border: none;
+	background: none;
+	outline: none;
+}
+body {
+  color: $white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: $size;
+}
+
+
+// header
+@import 'site-parts/header';
+
+// about-us
+@import 'site-parts/about-us';
+
+// what-we-do
+@import 'site-parts/what-we-do';
+
+// recent-works
+@import 'site-parts/recent-works';
+
+// our-news
+@import 'site-parts/our-news';
+
+// client-quote
+@import 'site-parts/client-quote';
+
+// ourTeam
+@import 'site-parts/our-team';
+
+// brands
+@import 'site-parts/brands';
+
+// pricingTable
+@import 'site-parts/pricing-table';
+
+
+// media
+@import 'media';

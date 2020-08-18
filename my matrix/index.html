@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Matrix</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <div class="headerBlock">
+        <div class="logo">
+          <img class="logo__img" src="img/header/matrix.png" alt="Matrix">
+        </div>
+        <nav class="menuBlock">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <button class="burgerMenuBtn"></button>
+        </nav>
+        <div class="searchCart">
+          <div class="search">
+            <a class="search__item" href="#">
+              <span class="search__icon">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="19px" height="18px">
+                  <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                  d="M6.781,2.400 C9.272,2.400 11.299,4.399 11.299,6.857 C11.299,7.782 11.009,8.673 10.461,9.432 L10.017,10.048 L9.392,10.487 C8.622,11.027 7.719,11.313 6.781,11.313 C4.290,11.313 2.263,9.314 2.263,6.857 C2.263,4.399 4.290,2.400 6.781,2.400 M6.781,0.171 C3.038,0.171 0.004,3.164 0.004,6.857 C0.004,10.549 3.038,13.542 6.781,13.542 C8.244,13.542 9.595,13.080 10.702,12.303 L16.144,17.672 C16.365,17.891 16.655,17.999 16.944,17.999 C17.234,17.999 17.523,17.891 17.744,17.672 C18.186,17.236 18.186,16.530 17.744,16.094 L12.302,10.724 C13.090,9.632 13.558,8.299 13.558,6.857 C13.558,3.164 10.524,0.171 6.781,0.171 L6.781,0.171 Z"/>
+                  </svg>
+              </span>
+            </a>
+          </div>
+          <div class="cart">
+            <a class="cart__link" href="#">
+              <!-- <span class="cart__icon"> -->
+                <svg class="cart__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="19px" height="18px">
+                  <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                  d="M18.944,2.076 L17.602,7.628 C17.420,8.381 16.734,8.913 15.945,8.913 L5.369,8.913 L5.369,11.142 L16.724,11.142 C17.351,11.142 17.860,11.641 17.860,12.256 C17.860,12.872 17.351,13.371 16.724,13.371 L5.369,13.371 L4.801,13.371 C3.861,13.371 3.098,12.623 3.098,11.699 L3.098,8.913 L3.098,2.227 L1.962,2.227 C1.335,2.227 0.827,1.729 0.827,1.114 C0.827,0.499 1.335,-0.001 1.962,-0.001 L3.098,-0.001 L4.234,-0.001 L17.291,-0.001 C18.399,-0.001 19.212,1.022 18.944,2.076 ZM5.369,2.227 L5.369,6.685 L15.496,6.685 L16.573,2.227 L5.369,2.227 ZM5.937,14.485 C6.877,14.485 7.640,15.233 7.640,16.157 C7.640,17.080 6.877,17.828 5.937,17.828 C4.996,17.828 4.234,17.080 4.234,16.157 C4.234,15.233 4.996,14.485 5.937,14.485 ZM15.021,14.485 C15.962,14.485 16.724,15.233 16.724,16.157 C16.724,17.080 15.962,17.828 15.021,17.828 C14.080,17.828 13.318,17.080 13.318,16.157 C13.318,15.233 14.080,14.485 15.021,14.485 Z"/>
+                </svg>
+              <!-- </span> -->
+              <span class="cart__text">0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slider__heading">
+          <h1 class="slider__title">Welcome to our world</h1>
+        </div>
+        <div class="slider__lorem">
+          <p class="slider__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+        <div class="LearnMoreBtn">
+          <a href="#">Learn More</a>
+        </div>
+        <div class="indicatorsBlock">
+          <ul class="indicators">
+            <li class="indicators__item indicators__item_green"></li>
+            <li class="indicators__item"></li>
+            <li class="indicators__item"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="aboutUs">
+    <div class="container">
+      <div class="heading heading_padding">
+        <h2 class="heading__title">About us</h2>
+      </div>
+      <div class="about">
+        <div class="about__item about__item_hover">
+          <img class="about__img" src="img/about-us/preview.jpg" alt="">
+        </div>
+        <div class="about__item">
+          <div class="about__heading">
+            <h2 class="about__title">Hello! We’re a Creative Agency</h2>
+          </div>
+          <div class="about__text">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+          </div>
+          <div class="aboutMission">
+            <p><span>Mission</span> - we deliver uniqueness and qual</p>
+            <p><span>Skills</span> - delivering fast and excellent result</p>
+            <p><span>Clients</span> - satisfied clients thanks to our experience
+            </p>
+          </div>
+          <div class="browseOurWorks">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="16px" height="13px">
+              <path fill-rule="evenodd"
+              d="M4.964,1.856 L6.232,3.033 C6.704,3.472 7.332,3.714 8.000,3.714 L14.000,3.714 L14.000,11.142 L2.000,11.142 L2.000,1.856 L4.964,1.856 M5.586,-0.001 L1.000,-0.001 C0.448,-0.001 -0.000,0.415 -0.000,0.928 L-0.000,12.071 C-0.000,12.584 0.448,12.999 1.000,12.999 L15.000,12.999 C15.552,12.999 16.000,12.584 16.000,12.071 L16.000,2.785 C16.000,2.272 15.552,1.856 15.000,1.856 L8.000,1.856 C7.867,1.856 7.740,1.807 7.646,1.721 L5.939,0.135 C5.846,0.048 5.718,-0.001 5.586,-0.001 L5.586,-0.001 Z"/>
+            </svg>
+            <a class="browseOurWorks__link" href="">Browse our works</a>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="whatWeDo">
+    <div class="container">
+      <div class="whatWeDoBlock">
+        <div class="weDo">
+          <div class="weDo__item">
+            <div class="weDo__circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="36px" height="28px">
+                <path fill-rule="evenodd"
+                d="M34.000,27.999 L31.000,27.999 L30.000,27.999 L29.969,27.999 L29.969,27.996 C28.879,27.980 28.000,27.093 28.000,25.999 C28.000,24.894 28.895,23.999 30.000,23.999 L31.000,23.999 C31.552,23.999 32.000,23.551 32.000,23.000 L32.000,8.999 C32.000,8.447 31.552,7.999 31.000,7.999 L26.000,7.999 L24.343,7.999 L23.172,6.828 L20.343,3.999 L15.657,3.999 L12.828,6.828 L11.657,7.999 L10.000,7.999 L5.000,7.999 C4.448,7.999 4.000,8.447 4.000,8.999 L4.000,23.000 C4.000,23.551 4.448,23.999 5.000,23.999 L6.000,23.999 C7.104,23.999 8.000,24.894 8.000,25.999 C8.000,27.104 7.104,27.999 6.000,27.999 L5.000,27.999 L2.000,27.999 C0.895,27.999 -0.000,27.104 -0.000,25.999 L-0.000,5.999 C-0.000,4.894 0.895,3.999 2.000,3.999 L10.000,3.999 L13.414,0.585 C13.789,0.210 14.298,-0.001 14.828,-0.001 L21.172,-0.001 C21.702,-0.001 22.211,0.210 22.586,0.585 L26.000,3.999 L34.000,3.999 C35.105,3.999 36.000,4.894 36.000,5.999 L36.000,25.999 C36.000,27.104 35.105,27.999 34.000,27.999 ZM18.000,10.000 C22.418,10.000 26.000,13.581 26.000,17.999 C26.000,22.417 22.418,25.999 18.000,25.999 C13.582,25.999 10.000,22.417 10.000,17.999 C10.000,13.581 13.582,10.000 18.000,10.000 ZM18.000,21.999 C20.206,21.999 22.000,20.205 22.000,17.999 C22.000,15.794 20.206,14.000 18.000,14.000 C15.794,14.000 14.000,15.794 14.000,17.999 C14.000,20.205 15.794,21.999 18.000,21.999 Z"/>
+              </svg>
+            </div>
+            <div class="weDo__heading">
+              <h4 class="weDo__title">Photography</h4>
+            </div>
+            <div class="weDo__text">
+              <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            </div>
+          </div><!-- /.weDo__item-->
+          <div class="weDo__item">
+            <div class="weDo__circle">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="32px" height="32px">
+                <path fill-rule="evenodd"
+                d="M30.000,27.999 L19.000,27.999 C20.657,27.999 22.000,29.342 22.000,30.999 L22.000,31.999 L10.000,31.999 L10.000,30.999 C10.000,29.342 11.343,27.999 13.000,27.999 L2.000,27.999 C0.895,27.999 -0.000,27.104 -0.000,25.999 L-0.000,1.999 C-0.000,0.895 0.895,-0.001 2.000,-0.001 L30.000,-0.001 C31.105,-0.001 32.000,0.895 32.000,1.999 L32.000,25.999 C32.000,27.104 31.105,27.999 30.000,27.999 ZM28.000,8.874 L28.000,6.999 L28.000,4.999 C28.000,4.447 27.552,3.999 27.000,3.999 L24.000,3.999 L5.000,3.999 C4.448,3.999 4.000,4.447 4.000,4.999 L4.000,23.000 C4.000,23.551 4.448,23.999 5.000,23.999 L27.000,23.999 C27.552,23.999 28.000,23.551 28.000,23.000 L28.000,8.874 Z"/>
+              </svg>
+            </div>
+            <div class="weDo__heading">
+              <h4 class="weDo__title">Web Design</h4>
+            </div>
+            <div class="weDo__text">
+              <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            </div>
+          </div><!-- /.weDo__item-->
+          <div class="weDo__item">
+            <div class="weDo__circle">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="32px" height="32px">
+                <path fill-rule="evenodd"
+                d="M30.183,16.467 C31.298,14.771 31.955,12.717 31.955,10.499 C31.955,4.701 27.488,-0.001 21.978,-0.001 C17.196,-0.001 13.205,3.541 12.231,8.266 C11.520,8.097 10.782,7.999 10.022,7.999 C4.512,7.999 0.044,12.700 0.044,18.499 C0.044,20.717 0.702,22.771 1.817,24.467 L-0.000,31.999 L9.603,28.977 C9.743,28.983 9.881,28.999 10.022,28.999 C14.804,28.999 18.795,25.457 19.769,20.733 C20.480,20.902 21.217,20.999 21.978,20.999 C22.119,20.999 22.257,20.983 22.397,20.977 L32.000,23.999 L30.183,16.467 ZM15.982,18.878 C15.982,18.879 15.982,18.879 15.982,18.880 C15.948,19.514 15.831,20.122 15.642,20.694 C15.641,20.698 15.639,20.701 15.638,20.704 C15.576,20.890 15.507,21.072 15.431,21.249 C15.427,21.258 15.422,21.267 15.418,21.277 C15.344,21.446 15.264,21.612 15.177,21.774 C15.167,21.793 15.156,21.811 15.145,21.831 C15.062,21.980 14.976,22.126 14.883,22.267 C14.862,22.300 14.839,22.331 14.817,22.362 C14.731,22.488 14.643,22.611 14.549,22.730 C14.512,22.776 14.473,22.821 14.434,22.868 C14.351,22.966 14.267,23.065 14.178,23.159 C14.118,23.223 14.054,23.282 13.991,23.343 C13.919,23.414 13.848,23.485 13.773,23.550 C13.677,23.635 13.577,23.713 13.477,23.790 C13.428,23.827 13.382,23.868 13.332,23.904 C13.185,24.011 13.034,24.110 12.878,24.202 C12.871,24.207 12.865,24.211 12.858,24.216 C12.178,24.617 11.421,24.878 10.616,24.965 C10.605,24.966 10.594,24.966 10.583,24.967 C10.415,24.984 10.247,24.998 10.075,24.999 L10.049,24.998 C10.047,24.998 10.046,24.997 10.044,24.997 C10.029,24.997 10.015,25.000 10.000,25.000 C9.787,25.000 9.577,24.986 9.369,24.963 L9.074,24.950 L8.402,25.162 L5.548,26.060 L5.706,25.405 L6.113,23.717 L5.507,22.797 C4.572,21.651 4.000,20.150 4.000,18.499 C4.000,14.909 6.686,12.000 10.000,12.000 C10.004,12.000 10.007,12.000 10.011,12.000 C10.015,12.000 10.019,12.000 10.022,12.000 C10.221,12.000 10.416,12.011 10.610,12.032 C10.628,12.035 10.646,12.039 10.664,12.041 C10.835,12.062 11.005,12.089 11.172,12.125 C11.261,12.144 11.347,12.171 11.435,12.194 C11.526,12.219 11.617,12.241 11.706,12.270 C11.817,12.305 11.924,12.347 12.032,12.389 C12.080,12.409 12.130,12.423 12.178,12.443 C12.178,12.445 12.178,12.446 12.179,12.448 C14.414,13.393 16.000,15.743 16.000,18.499 C16.000,18.627 15.989,18.752 15.982,18.878 L15.982,18.878 ZM26.841,14.268 L25.887,15.718 L26.294,17.405 L26.452,18.060 L23.598,17.162 L22.926,16.950 L22.222,16.981 C22.131,16.984 22.041,16.991 21.951,16.997 L21.925,16.999 C21.183,16.992 20.476,16.831 19.822,16.554 C19.355,13.934 17.963,11.664 16.018,10.120 C16.200,6.713 18.799,3.999 21.978,3.999 C25.274,3.999 27.955,6.915 27.955,10.499 C27.955,11.857 27.570,13.160 26.841,14.268 Z"/>
+              </svg>
+            </div>
+            <div class="weDo__heading">
+              <h4 class="weDo__title">Marketing</h4>
+            </div>
+            <div class="weDo__text">
+              <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            </div>
+          </div><!-- /.weDo__item-->
+          
+        </div><!-- /.weDo -->
+      </div>
+    </div>
+  </section>
+
+  <section class="recentWorks">
+    <div class="container">
+      <div class="heading">
+        <h2 class="heading__title">Recent works</h2>
+      </div>
+      <ul class="menu menu_center">
+        <li class="menu__item">
+          <a class="menu__link menu__link_active" href="#">All</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Animation</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">App design</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Photography</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Web design</a>
+        </li>
+      </ul>
+    </div><!-- /.container -->
+    <div class="works">
+      <div class="works__col">
+        <div class="works__item">
+          <div class="works__img">
+            <img src="img/recent-works/1.jpg" alt="">
+          </div>
+          <div class="works__inner">
+            <h6 class="works__title">Soundcloud</h6>
+            <p class="works__text">web design / app design</p>
+          </div>
+        </div>
+        <div class="works__item">
+          <div class="works__img">
+            <img src="img/recent-works/2.jpg" alt="">
+          </div>
+          <div class="works__inner">
+            <h6 class="works__title">Soundcloud</h6>
+            <p class="works__text">web design / app design</p>
+          </div>
+        </div>
+      </div><!-- /.works__col -->
+      <div class="works__col">
+        <div class="works__item">
+          <div class="works__img">
+            <img src="img/recent-works/3.jpg" alt="">
+          </div>
+          <div class="works__inner">
+            <h6 class="works__title">Soundcloud</h6>
+            <p class="works__text">web design / app design</p>
+          </div>
+        </div>
+        <div class="works__item">
+          <div class="works__img">
+            <img src="img/recent-works/4.jpg" alt="">
+          </div>
+          <div class="works__inner">
+            <h6 class="works__title">Soundcloud</h6>
+            <p class="works__text">web design / app design</p>
+          </div>
+        </div>
+      </div><!-- /.works__col -->
+      <div class="works__col">
+        <div class="works__item">
+          <div class="works__img">
+            <img src="img/recent-works/5.jpg" alt="">
+          </div>
+          <div class="works__inner">
+            <h6 class="works__title">Soundcloud</h6>
+            <p class="works__text">web design / app design</p>
+          </div>
+        </div>
+        <div class="works__item">
+          <div class="works__img">
+            <img src="img/recent-works/6.jpg" alt="">
+          </div>
+          <div class="works__inner">
+            <h6 class="works__title">Soundcloud</h6>
+            <p class="works__text">web design / app design</p>
+          </div>
+        </div>
+      </div><!-- /.works__col -->
+      <div class="works__col">
+        <div class="works__item">
+          <div class="works__img">
+            <img src="img/recent-works/7.jpg" alt="">
+          </div>
+          <div class="works__inner">
+            <h6 class="works__title">Soundcloud</h6>
+            <p class="works__text">web design / app design</p>
+          </div>
+        </div>
+        <div class="works__item">
+          <div class="works__img">
+            <img src="img/recent-works/8.jpg" alt="">
+          </div>
+          <div class="works__inner">
+            <h6 class="works__title">Soundcloud</h6>
+            <p class="works__text">web design / app design</p>
+          </div>
+        </div>
+      </div><!-- /.works__col -->
+      
+      
+    </div><!-- /.works -->
+  </section>
+
+  <section class="ourNews">
+    <div class="container">
+      <div class="heading">
+        <h2 class="heading__title">Our news</h2>
+      </div>
+      <div class="news">
+        <div class="news__item">
+          <div class="news__header">
+            <div class="news__img">
+              <img src="img/our-news/2.jpg" alt="">
+            </div>
+            <div class="news__readMore">Read more...</div>
+          </div>
+          <div class="news__footer">
+            <div class="news__title">Railway station</div>
+            <p class="news__date">By Matrix / 05 Sep 2015</p>
+            <p class="news__lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+        <div class="news__item">
+          <div class="news__header">
+            <div class="news__img">
+              <img src="img/our-news/1.jpg" alt="">
+            </div>
+            <div class="news__readMore">Read more...</div>
+          </div>
+          <div class="news__footer">
+            <div class="news__title">Local library</div>
+            <p class="news__date">By Matrix / 26 May 2015</p>
+            <p class="news__lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+        <div class="news__item">
+          <div class="news__header">
+            <div class="news__img">
+              <img src="img/our-news/2.jpg" alt="">
+            </div>
+            <div class="news__readMore">Read more...</div>
+          </div>
+          <div class="news__footer">
+            <div class="news__title">Our journey</div>
+            <p class="news__date">By Matrix / 05 May 2015</p>
+            <p class="news__lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div><!-- /.news-->
+    </div>
+  </section>
+
+<section class="clientQuote">
+  <div class="container">
+    <div class="client">
+      <svg 
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <text kerning="auto" font-family="Tahoma" fill="rgb(0, 0, 0)" font-size="200px" x="0px" y="139.201px"><tspan font-size="200px" font-family="Gautami" font-weight="bold" fill="#94BAD7">&#8220;</tspan></text>
+      </svg>
+      <blockquote class="client__blockquote">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </blockquote>
+      <h5 class="client__title">Elizabeth Taylor</h5>
+      <p class="client__text">Graphic Designer & Manager</p>
+    </div>
+    
+  </div>
+</section>
+
+<section class="ourTeam">
+  <div class="container">
+    <div class="heading">
+      <h2 class="heading__title">Our team</h2>
+    </div>
+      <div class="team">
+        <div class="team__item">
+          <div class="team__inner">
+            <div class="team__photo">
+              <img src="img/our-team/1.jpg" alt="">
+            </div>
+            <div class="social">
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="17px" height="14px">
+                  <path fill-rule="evenodd"  fill="rgb(234, 249, 254)"
+                  d="M16.078,2.046 C15.809,2.194 15.000,2.492 14.248,2.565 C14.730,2.304 15.446,1.451 15.622,0.772 C15.158,1.070 14.090,1.503 13.564,1.503 C13.564,1.503 13.564,1.503 13.564,1.504 C12.963,0.876 12.117,0.484 11.178,0.484 C9.355,0.484 7.877,1.961 7.877,3.784 C7.877,4.037 7.907,4.284 7.961,4.521 L7.960,4.521 C5.488,4.456 2.784,3.217 1.156,1.095 C0.155,2.828 1.021,4.754 2.157,5.457 C1.768,5.486 1.052,5.412 0.715,5.084 C0.693,6.233 1.246,7.757 3.262,8.310 C2.873,8.519 2.186,8.459 1.887,8.414 C1.992,9.385 3.352,10.654 4.838,10.654 C4.308,11.267 2.315,12.378 0.078,12.024 C1.597,12.948 3.368,13.484 5.242,13.484 C10.567,13.484 14.703,9.167 14.480,3.843 C14.479,3.838 14.479,3.832 14.478,3.825 C14.479,3.812 14.480,3.798 14.480,3.784 C14.480,3.767 14.478,3.751 14.478,3.735 C14.963,3.404 15.613,2.818 16.078,2.046 Z"/>
+                </svg>
+              </a>
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="8px" height="17px">
+                  <path fill-rule="evenodd"  fill="rgb(238, 241, 249)"
+                  d="M5.948,3.482 L7.479,3.482 L7.479,0.984 L5.603,0.984 L5.603,0.995 C2.666,1.098 2.063,2.749 2.011,4.484 L2.005,4.484 L2.005,6.489 L0.505,6.489 L0.505,8.987 L2.005,8.987 L2.005,16.984 L5.004,16.984 L5.004,8.987 L7.253,8.987 L7.698,6.489 L5.004,6.489 L5.004,4.679 C5.004,4.095 5.392,3.482 5.948,3.482 Z"/>
+                </svg>
+              </a>
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="17px" height="15px">
+                  <path fill-rule="evenodd"  fill="rgb(236, 245, 252)"
+                  d="M13.003,14.981 L13.003,9.525 C13.003,8.407 12.680,7.287 11.366,7.287 C10.052,7.287 9.502,8.407 9.502,9.553 L9.502,14.981 L5.996,14.981 L5.996,4.993 L9.502,4.993 L9.502,6.337 C10.425,5.162 11.227,4.678 12.680,4.678 C14.135,4.678 16.500,5.358 16.500,9.302 L16.500,14.981 L13.003,14.981 ZM2.755,3.511 C1.673,3.511 0.797,2.723 0.797,1.750 C0.797,0.776 1.673,-0.013 2.755,-0.013 C3.836,-0.013 4.713,0.776 4.713,1.750 C4.713,2.723 3.836,3.511 2.755,3.511 ZM4.505,14.981 L0.993,14.981 L0.993,4.993 L4.505,4.993 L4.505,14.981 Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="team__content">
+            <h6 class="team__title">Thomas Anderson</h6>
+            <div class="team__name">Graphic Designer</div>
+            <p class="team__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+        <div class="team__item">
+          <div class="team__inner">
+            <div class="team__photo">
+              <img src="img/our-team/2.jpg" alt="">
+            </div>
+            <div class="social">
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="17px" height="14px">
+                  <path fill-rule="evenodd"  fill="rgb(234, 249, 254)"
+                  d="M16.078,2.046 C15.809,2.194 15.000,2.492 14.248,2.565 C14.730,2.304 15.446,1.451 15.622,0.772 C15.158,1.070 14.090,1.503 13.564,1.503 C13.564,1.503 13.564,1.503 13.564,1.504 C12.963,0.876 12.117,0.484 11.178,0.484 C9.355,0.484 7.877,1.961 7.877,3.784 C7.877,4.037 7.907,4.284 7.961,4.521 L7.960,4.521 C5.488,4.456 2.784,3.217 1.156,1.095 C0.155,2.828 1.021,4.754 2.157,5.457 C1.768,5.486 1.052,5.412 0.715,5.084 C0.693,6.233 1.246,7.757 3.262,8.310 C2.873,8.519 2.186,8.459 1.887,8.414 C1.992,9.385 3.352,10.654 4.838,10.654 C4.308,11.267 2.315,12.378 0.078,12.024 C1.597,12.948 3.368,13.484 5.242,13.484 C10.567,13.484 14.703,9.167 14.480,3.843 C14.479,3.838 14.479,3.832 14.478,3.825 C14.479,3.812 14.480,3.798 14.480,3.784 C14.480,3.767 14.478,3.751 14.478,3.735 C14.963,3.404 15.613,2.818 16.078,2.046 Z"/>
+                </svg>
+              </a>
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="8px" height="17px">
+                  <path fill-rule="evenodd"  fill="rgb(238, 241, 249)"
+                  d="M5.948,3.482 L7.479,3.482 L7.479,0.984 L5.603,0.984 L5.603,0.995 C2.666,1.098 2.063,2.749 2.011,4.484 L2.005,4.484 L2.005,6.489 L0.505,6.489 L0.505,8.987 L2.005,8.987 L2.005,16.984 L5.004,16.984 L5.004,8.987 L7.253,8.987 L7.698,6.489 L5.004,6.489 L5.004,4.679 C5.004,4.095 5.392,3.482 5.948,3.482 Z"/>
+                </svg>
+              </a>
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="17px" height="15px">
+                  <path fill-rule="evenodd"  fill="rgb(236, 245, 252)"
+                  d="M13.003,14.981 L13.003,9.525 C13.003,8.407 12.680,7.287 11.366,7.287 C10.052,7.287 9.502,8.407 9.502,9.553 L9.502,14.981 L5.996,14.981 L5.996,4.993 L9.502,4.993 L9.502,6.337 C10.425,5.162 11.227,4.678 12.680,4.678 C14.135,4.678 16.500,5.358 16.500,9.302 L16.500,14.981 L13.003,14.981 ZM2.755,3.511 C1.673,3.511 0.797,2.723 0.797,1.750 C0.797,0.776 1.673,-0.013 2.755,-0.013 C3.836,-0.013 4.713,0.776 4.713,1.750 C4.713,2.723 3.836,3.511 2.755,3.511 ZM4.505,14.981 L0.993,14.981 L0.993,4.993 L4.505,4.993 L4.505,14.981 Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="team__content">
+            <h6 class="team__title">Lilly Simpson</h6>
+            <div class="team__name">Photographer</div>
+            <p class="team__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+        <div class="team__item">
+          <div class="team__inner">
+            <div class="team__photo">
+              <img src="img/our-team/3.jpg" alt="">
+            </div>
+            <div class="social">
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="17px" height="14px">
+                  <path fill-rule="evenodd"  fill="rgb(234, 249, 254)"
+                  d="M16.078,2.046 C15.809,2.194 15.000,2.492 14.248,2.565 C14.730,2.304 15.446,1.451 15.622,0.772 C15.158,1.070 14.090,1.503 13.564,1.503 C13.564,1.503 13.564,1.503 13.564,1.504 C12.963,0.876 12.117,0.484 11.178,0.484 C9.355,0.484 7.877,1.961 7.877,3.784 C7.877,4.037 7.907,4.284 7.961,4.521 L7.960,4.521 C5.488,4.456 2.784,3.217 1.156,1.095 C0.155,2.828 1.021,4.754 2.157,5.457 C1.768,5.486 1.052,5.412 0.715,5.084 C0.693,6.233 1.246,7.757 3.262,8.310 C2.873,8.519 2.186,8.459 1.887,8.414 C1.992,9.385 3.352,10.654 4.838,10.654 C4.308,11.267 2.315,12.378 0.078,12.024 C1.597,12.948 3.368,13.484 5.242,13.484 C10.567,13.484 14.703,9.167 14.480,3.843 C14.479,3.838 14.479,3.832 14.478,3.825 C14.479,3.812 14.480,3.798 14.480,3.784 C14.480,3.767 14.478,3.751 14.478,3.735 C14.963,3.404 15.613,2.818 16.078,2.046 Z"/>
+                </svg>
+              </a>
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="8px" height="17px">
+                  <path fill-rule="evenodd"  fill="rgb(238, 241, 249)"
+                  d="M5.948,3.482 L7.479,3.482 L7.479,0.984 L5.603,0.984 L5.603,0.995 C2.666,1.098 2.063,2.749 2.011,4.484 L2.005,4.484 L2.005,6.489 L0.505,6.489 L0.505,8.987 L2.005,8.987 L2.005,16.984 L5.004,16.984 L5.004,8.987 L7.253,8.987 L7.698,6.489 L5.004,6.489 L5.004,4.679 C5.004,4.095 5.392,3.482 5.948,3.482 Z"/>
+                </svg>
+              </a>
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="17px" height="15px">
+                  <path fill-rule="evenodd"  fill="rgb(236, 245, 252)"
+                  d="M13.003,14.981 L13.003,9.525 C13.003,8.407 12.680,7.287 11.366,7.287 C10.052,7.287 9.502,8.407 9.502,9.553 L9.502,14.981 L5.996,14.981 L5.996,4.993 L9.502,4.993 L9.502,6.337 C10.425,5.162 11.227,4.678 12.680,4.678 C14.135,4.678 16.500,5.358 16.500,9.302 L16.500,14.981 L13.003,14.981 ZM2.755,3.511 C1.673,3.511 0.797,2.723 0.797,1.750 C0.797,0.776 1.673,-0.013 2.755,-0.013 C3.836,-0.013 4.713,0.776 4.713,1.750 C4.713,2.723 3.836,3.511 2.755,3.511 ZM4.505,14.981 L0.993,14.981 L0.993,4.993 L4.505,4.993 L4.505,14.981 Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="team__content">
+            <h6 class="team__title">Elizabeth Bennet</h6>
+            <div class="team__name">Graphic Designer</div>
+            <p class="team__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+        <div class="team__item">
+          <div class="team__inner">
+            <div class="team__photo">
+              <img src="img/our-team/4.jpg" alt="">
+            </div>
+            <div class="social">
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="17px" height="14px">
+                  <path fill-rule="evenodd"  fill="rgb(234, 249, 254)"
+                  d="M16.078,2.046 C15.809,2.194 15.000,2.492 14.248,2.565 C14.730,2.304 15.446,1.451 15.622,0.772 C15.158,1.070 14.090,1.503 13.564,1.503 C13.564,1.503 13.564,1.503 13.564,1.504 C12.963,0.876 12.117,0.484 11.178,0.484 C9.355,0.484 7.877,1.961 7.877,3.784 C7.877,4.037 7.907,4.284 7.961,4.521 L7.960,4.521 C5.488,4.456 2.784,3.217 1.156,1.095 C0.155,2.828 1.021,4.754 2.157,5.457 C1.768,5.486 1.052,5.412 0.715,5.084 C0.693,6.233 1.246,7.757 3.262,8.310 C2.873,8.519 2.186,8.459 1.887,8.414 C1.992,9.385 3.352,10.654 4.838,10.654 C4.308,11.267 2.315,12.378 0.078,12.024 C1.597,12.948 3.368,13.484 5.242,13.484 C10.567,13.484 14.703,9.167 14.480,3.843 C14.479,3.838 14.479,3.832 14.478,3.825 C14.479,3.812 14.480,3.798 14.480,3.784 C14.480,3.767 14.478,3.751 14.478,3.735 C14.963,3.404 15.613,2.818 16.078,2.046 Z"/>
+                </svg>
+              </a>
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="8px" height="17px">
+                  <path fill-rule="evenodd"  fill="rgb(238, 241, 249)"
+                  d="M5.948,3.482 L7.479,3.482 L7.479,0.984 L5.603,0.984 L5.603,0.995 C2.666,1.098 2.063,2.749 2.011,4.484 L2.005,4.484 L2.005,6.489 L0.505,6.489 L0.505,8.987 L2.005,8.987 L2.005,16.984 L5.004,16.984 L5.004,8.987 L7.253,8.987 L7.698,6.489 L5.004,6.489 L5.004,4.679 C5.004,4.095 5.392,3.482 5.948,3.482 Z"/>
+                </svg>
+              </a>
+              <a href="" class="social__item">
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="17px" height="15px">
+                  <path fill-rule="evenodd"  fill="rgb(236, 245, 252)"
+                  d="M13.003,14.981 L13.003,9.525 C13.003,8.407 12.680,7.287 11.366,7.287 C10.052,7.287 9.502,8.407 9.502,9.553 L9.502,14.981 L5.996,14.981 L5.996,4.993 L9.502,4.993 L9.502,6.337 C10.425,5.162 11.227,4.678 12.680,4.678 C14.135,4.678 16.500,5.358 16.500,9.302 L16.500,14.981 L13.003,14.981 ZM2.755,3.511 C1.673,3.511 0.797,2.723 0.797,1.750 C0.797,0.776 1.673,-0.013 2.755,-0.013 C3.836,-0.013 4.713,0.776 4.713,1.750 C4.713,2.723 3.836,3.511 2.755,3.511 ZM4.505,14.981 L0.993,14.981 L0.993,4.993 L4.505,4.993 L4.505,14.981 Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="team__content">
+            <h6 class="team__title">Oliver Croft</h6>
+            <div class="team__name">Creative Director</div>
+            <p class="team__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+          </div>
+        </div>
+      </div><!-- /.team -->
+  </div>
+</section>
+
+<section class="brands">
+  <div class="container">
+    <div class="brandsName">
+      <div class="brandsName__item">
+        <img src="img/brands/the-verge.png" alt="The verge">
+      </div>
+      <div class="brandsName__item">
+        <img src="img/brands/mashable.png" alt="Mashable">
+      </div>
+      <div class="brandsName__item">
+        <img src="img/brands/appboy.png" alt="Appboy">
+      </div>
+      <div class="brandsName__item">
+        <img src="img/brands/behance.png" alt="Behance">
+      </div>
+      <div class="brandsName__item">
+        <img src="img/brands/dribbble.png" alt="Dribbble">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pricingTable">
+  <div class="container">
+    <div class="heading">
+      <h2 class="heading__title">Pricing table</h2>
+    </div>
+    <div class="pricing">
+      <div class="pricing__item">
+        <h2 class="pricing__title">Standart</h2>
+        <div class="">$55/Month</div>
+        <p>Unlimited products</p>
+        <p>Mobile website and store</p>
+        <p>Customer support</p>
+        <p>Unlimited staff</p>
+        <p>Custom domain free</p>
+        <p>Unlimited email</p>
+        <button>Purchase</button>
+      </div>
+      <div class="pricing__item"></div>
+      <div class="pricing__item"></div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

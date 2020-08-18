@@ -1,0 +1,15 @@
+.brands {
+  margin-bottom: 160px;
+  background: url(../img/brands/brands-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.brandsName {
+  height: 249px;
+  @include flex-between ();
+  &__item {
+    img {
+      max-width: 100%;
+    }
+  }
+}

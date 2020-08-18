@@ -1,0 +1,41 @@
+.whatWeDo {
+  padding-bottom: 160px;
+}
+.weDo {
+  display: flex;
+  // justify-content: space-between;
+  &__item {
+    @include flex ();
+    flex-direction: column;
+  }
+  &__circle {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    @include flex ();
+    border: 2px solid $green;
+    border-radius: 50%;
+    cursor: pointer;
+    svg {
+      fill: $green;
+    }
+    &:hover {
+      background: $green;
+      svg {
+        fill: $white;
+      }
+    }
+  }
+  &__heading {
+    margin-bottom: 20px;
+  }
+  &__title {
+    color: $darkBlue;
+    font-size: 20px;
+  }
+  &__text {
+    width: 83%;
+    color: $grey;
+    text-align: center;
+  }
+}

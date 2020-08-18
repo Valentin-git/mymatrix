@@ -1,0 +1,106 @@
+.aboutUs {
+  margin-bottom: 100px;
+}
+.heading {
+  width: 300px;
+  height: 90px;
+  margin: 0 auto;
+  padding-top: 11px;
+  @include flex ();
+  background: $green;
+  transform: rotate(-5deg);
+  &_padding {
+    margin-top: 112px;
+    margin-bottom: 95px;
+  }
+  &__title {
+    // width: 300px;
+    // height: 90px;
+    @include flex ();
+    // background: $green;
+    font-size: 50px;
+    font-weight: 500;
+    transform: rotate(5deg);
+  }
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  &__item {
+    width: calc(100% / 2);
+  }
+  &__heading {
+    position: relative;
+    margin-bottom: 45px;
+  }
+  &__title {
+    padding-bottom: 18px;
+    font-size: 30px;
+    color: $darkBlue;
+    font-weight: 600;
+    &::after {
+      content: '';
+      width: 50px;
+      height: 5px;
+      position: absolute;
+      left: 4px;
+      bottom: 0;
+      background: $green;
+    }
+  }
+  &__text {
+    margin-bottom: 30px;
+    color: $grey;
+    p {
+      line-height: 1.5;
+    }
+  }
+}
+.about {
+  &__item {
+    &_hover {
+      width: 440px;
+      height: 439px;
+      background: $green;
+    }
+  }
+  &__img {
+    &:hover {
+      border: 5px solid transparent;
+      background: rgba(255, 255, 255, .5);
+      transform: translate3d(67px, 67px, 0);
+      transition: transform .4s linear
+    }
+  }
+}
+.aboutMission {
+  margin-bottom: 35px;
+  color: $grey;
+  border-left: 5px solid $green;
+  line-height: 2.1;
+  p {
+    margin-left: 15px;
+    font-style: italic;
+  }
+  span {
+    color: $darkBlue;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+.browseOurWorks {
+  width: 200px;
+  height: 50px;
+  @include flex ();
+  border: 3px solid $darkBlue;
+  cursor: pointer;
+  svg {
+    margin-right: 10px;
+    background: $grey;
+  }
+  &__link {
+    font-size: 18px;
+    font-weight: 600;
+    color: $darkBlue;
+  }
+}
